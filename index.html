@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>فري تكريت | FreeTikrit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Tajawal', sans-serif;
+        background-color: #FAFAFA;
+        color: #1F2937;
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* Hide scrollbar */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      
+      /* Animations */
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .animate-fade-in-up {
+        animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        opacity: 0;
+      }
+
+      /* Premium Shadow Utilities */
+      .shadow-soft {
+        box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+      }
+      .shadow-glow {
+        box-shadow: 0 4px 14px 0 rgba(227, 6, 19, 0.3);
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#E30613', 
+              'primary-light': '#FFF1F2',
+              'primary-dark': '#C4040F',
+              secondary: '#111827',
+              subtle: '#9CA3AF',
+              surface: '#FFFFFF',
+              background: '#FAFAFA',
+            },
+            borderRadius: {
+              '3xl': '1.5rem',
+              '4xl': '2rem',
+            },
+            fontFamily: {
+              sans: ['Tajawal', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "path": "https://esm.sh/path@^0.12.7",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "url": "https://esm.sh/url@^0.11.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-J0KD2waz.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DQhvfEco.css">
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
